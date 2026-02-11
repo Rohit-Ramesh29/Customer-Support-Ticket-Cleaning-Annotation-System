@@ -1,2 +1,26 @@
-# Customer-Support-Ticket-Cleaning-Annotation-System
-NLP pipeline that cleans, normalizes, and annotates noisy customer support tickets using spaCy, NLTK, and TextBlob. Performs text preprocessing, lemmatization, stopword removal, NER, and rule-based categorization to produce structured, ML-ready datasets for automation and ticket classification systems.
+# Customer Support Ticket Cleaning & Annotation System
+
+## 📌 Project Overview
+This project builds a complete NLP preprocessing pipeline to clean, process, and annotate customer support tickets for machine learning tasks.
+
+## 🚀 Features
+- Text Cleaning
+- Spell Correction
+- Tokenization
+- Stopword Removal
+- Lemmatization
+- Named Entity Recognition (NER)
+- Ticket Category Labeling
+
+## 🛠 Tech Stack
+Python, spaCy, NLTK, TextBlob, Pandas
+
+## 📂 Dataset
+support_tickets.csv contains raw customer complaints.
+
+## ▶️ How to Run
+
+```bash
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+python ticket_preprocessing.py
